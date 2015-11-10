@@ -1,0 +1,8 @@
+# Us an opt-in strategy, force specific add
+*
+
+# Add this file
+!.gitignore
+
+# Add index.html
+!index.html
