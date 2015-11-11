@@ -36,7 +36,14 @@
         <nav role="navigation">
             <ul class="nav nav-pills">
                 <li role="presentation"><a  href="#">Home</a></li>
-                <li role="presentation"><a  href="#">Projects</a></li>
+                <li class="drop-down" role="presentation">
+                    <button type="button" class="btn btn-default drop-down-toggle"  data-toggle="dropdown">Projects</button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">GenPres</a></li>
+                        <li><a href="#">GenForm</a></li>
+                        <li><a href="#">GenPDMS</a></li>
+                    </ul>
+                </li>
                 <li role="presentation"><a  href="#">Documentation</a></li>
                 <li role="presentation"><a  href="#">About</a></li>
             </ul>
