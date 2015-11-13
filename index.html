@@ -33,21 +33,33 @@
   </head>
   <body>
     <div class="container">
-        <nav class="navbar navbar-default">
-            <ul class="nav nav-pills">
-                <li role="presentation"><a  href="#">Home</a></li>
-                <li class="drop-down" role="presentation">
-                    <button type="button" class="btn btn-default drop-down-toggle"  data-toggle="dropdown">Projects</button>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">GenPres</a></li>
-                        <li><a href="#">GenForm</a></li>
-                        <li><a href="#">GenPDMS</a></li>
+        <nav class="navbar navbar-default   ">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="nvbar-toggle collapsed" data-toggle="collapse" data-target="#collapsedNav">
+                        <span class="sr-only">Toggle Navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <ul class="nav nav-pills">
+                        <li role="presentation"><a  href="#">Home</a></li>
+                        <li class="drop-down" role="presentation">
+                            <button type="button" class="btn btn-default drop-down-toggle"  data-toggle="dropdown">Projects</button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">GenPres</a></li>
+                                <li><a href="#">GenForm</a></li>
+                                <li><a href="#">GenPDMS</a></li>
+                            </ul>
+                        </li>
+                        <li role="presentation"><a  href="#">Documentation</a></li>
+                        <li role="presentation"><a  href="#">About</a></li>
                     </ul>
-                </li>
-                <li role="presentation"><a  href="#">Documentation</a></li>
-                <li role="presentation"><a  href="#">About</a></li>
-            </ul>
+                </div>
+            </div>
         </nav>
+    </div>
+    <div class="container">
         <div class="jumbotron">
             <h1> Hello World! </h1>
             <p> This is the Informedica website dedicated to medical decision support. </p>
