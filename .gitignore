@@ -6,3 +6,7 @@
 
 # Add index.html
 !index.html
+
+# Add images
+!/img
+!/img/*.png
